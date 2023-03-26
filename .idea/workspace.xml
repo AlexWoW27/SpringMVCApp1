@@ -9,23 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3276c41-197c-43f5-a6af-f7ba416c3d1d" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d1cd073e706e527bcf70df6747a671b7b128cbd" beforeDir="false" />
+    <list default="true" id="b3276c41-197c-43f5-a6af-f7ba416c3d1d" name="Changes" comment="update - add validation">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00b704871c09fc6987aa529a2b388d65baa7a12f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/591951c680a02b468822ccbb4e524d1538e14bac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97c3b486fa9c121f92d9aff1f5f3e8b144c7451f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d1cd073e706e527bcf70df6747a671b7b128cbd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d1cd073e706e527bcf70df6747a671b7b128cbd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/23fff2e705416fcc56a462015bbbc1e318630083" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59d1754f2eee3cd9cf6c6090c33fccae9b74b20f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86c85c7f48399a46de70bd7f0021446be98f0b76" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7b26c5a2224c58c111f8eebea465ca78682c209" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d51ab06dbc702eb933e6f2c243d26c647892e7d8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/spring/course/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/spring/course/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/spring/course/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/spring/course/dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/spring/course/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/spring/course/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="58e9499f-d1f2-425f-9be3-15b8bded392f" />
+        <option name="url" value="https://github.com/AlexWoW27/SpringMVCApp1.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -89,6 +96,11 @@
     "settings.editor.selected.configurable": "build.tools",
     "spring.configuration.checksum": "c07a7db8416b3c89509ae1591c19403d",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -201,7 +213,9 @@
       <workItem from="1679434280542" duration="7200000" />
       <workItem from="1679524852225" duration="5392000" />
       <workItem from="1679604018375" duration="7692000" />
-      <workItem from="1679690031886" duration="9109000" />
+      <workItem from="1679690031886" duration="9974000" />
+      <workItem from="1679755066603" duration="3569000" />
+      <workItem from="1679855961236" duration="5056000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1679692926955</created>
@@ -217,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679693015081</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update - add validation">
+      <created>1679704892715</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679704892715</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +247,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update - add validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="update - add validation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
