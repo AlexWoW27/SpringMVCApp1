@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3276c41-197c-43f5-a6af-f7ba416c3d1d" name="Changes" comment="add batch controller">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/spring/course/util/PersonValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="b3276c41-197c-43f5-a6af-f7ba416c3d1d" name="Changes" comment="add PersonValidator">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/682ad584-03d0-4d3c-be8f-cc4807c1e3f9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/682ad584-03d0-4d3c-be8f-cc4807c1e3f9.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/682ad584-03d0-4d3c-be8f-cc4807c1e3f9/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/682ad584-03d0-4d3c-be8f-cc4807c1e3f9/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d1cd073e706e527bcf70df6747a671b7b128cbd" beforeDir="false" />
@@ -20,12 +18,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/591951c680a02b468822ccbb4e524d1538e14bac" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59d1754f2eee3cd9cf6c6090c33fccae9b74b20f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86c85c7f48399a46de70bd7f0021446be98f0b76" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97c3b486fa9c121f92d9aff1f5f3e8b144c7451f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7b26c5a2224c58c111f8eebea465ca78682c209" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d51ab06dbc702eb933e6f2c243d26c647892e7d8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f062e3dfbc1530b6b6e1546e2befdb1c86e32efe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/spring/course/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/spring/course/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/spring/course/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/spring/course/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/spring/course/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/spring/course/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +227,7 @@
       <workItem from="1679951689673" duration="4273000" />
       <workItem from="1680040896462" duration="600000" />
       <workItem from="1680449800806" duration="5470000" />
-      <workItem from="1680524580838" duration="3781000" />
+      <workItem from="1680524580838" duration="5547000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1679692926955</created>
@@ -276,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679959476534</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add PersonValidator">
+      <created>1680564433969</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680564433969</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +299,8 @@
     <MESSAGE value="update - change jdbc API on JDBC Template" />
     <MESSAGE value="update - test and add batch update , and add autoincrement on table" />
     <MESSAGE value="add batch controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="add batch controller" />
+    <MESSAGE value="add PersonValidator" />
+    <option name="LAST_COMMIT_MESSAGE" value="add PersonValidator" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

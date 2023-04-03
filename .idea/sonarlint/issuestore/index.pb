@@ -10,8 +10,6 @@ e.idea/dataSources/682ad584-03d0-4d3c-be8f-cc4807c1e3f9/storage_v2/_src_/databas
 †.idea/dataSources/682ad584-03d0-4d3c-be8f-cc4807c1e3f9/storage_v2/_src_/database/first_db.bWA53w/schema/information_schema.FNRwLQ.meta,f\e\fe68cb47d87e2eb4413e45afe2d4a00fd9d0769b
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-]
--src/main/webapp/WEB-INF/views/people/new.html,9\7\97c3b486fa9c121f92d9aff1f5f3e8b144c7451f
 ^
 .src/main/webapp/WEB-INF/views/people/show.html,0\0\00b704871c09fc6987aa529a2b388d65baa7a12f
 w
