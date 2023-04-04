@@ -4,6 +4,7 @@ package ru.spring.course.models;
 import javax.validation.constraints.*;
 
 public class Person {
+    
     private int id;
 
     @NotEmpty(message = "Name should not be empty")
@@ -18,7 +19,7 @@ public class Person {
     private String email;
 
     //Страна, Город, индекс(6 цифр)
-    @Pattern(regexp = "[A-Z]\\w+, [A-Z]\\w+, \\d{6}", message = "Your address whould be in this format: Country, City, Postal Code (6 digits)")
+    @Pattern(regexp = "[A-Z]\\w+, [A-Z]\\w+, \\d{6}", message = "Your address should be in this format: Country, City, Postal Code (6 digits)")
     private String address;
 
     public Person(){}
